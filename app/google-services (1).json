@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "943849080914",
+    "project_id": "snakeicegame-49fb8",
+    "storage_bucket": "snakeicegame-49fb8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943849080914:android:184bf9e25a717a3257b78b",
+        "android_client_info": {
+          "package_name": "com.saihil.snakeicegame"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDdB3tyTmU-URd2kQr9YAIbV_0c0rFj3o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
