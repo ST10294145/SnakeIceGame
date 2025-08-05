@@ -52,9 +52,9 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
 
-    // ✅ Firebase BoM and libraries
+    // Firebase BoM and Kotlin extensions libraries
     implementation(platform("com.google.firebase:firebase-bom:34.0.0"))
-    implementation("com.google.firebase:firebase-auth")
+    implementation("com.google.firebase:firebase-auth-ktx")         // Use -ktx here
     implementation("com.google.firebase:firebase-firestore-ktx")
 
     testImplementation(libs.junit)
@@ -65,3 +65,5 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 }
+
+
